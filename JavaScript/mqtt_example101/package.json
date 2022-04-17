@@ -1,0 +1,15 @@
+{
+  "name": "mqtt_example101",
+  "version": "1.0.0",
+  "description": "Using a Raspberry Pi as server broker to connect and publish content in a certain topic, then it will be reciving by a Node.js client using the MQTT.js library.",
+  "main": "subClient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  }
+}
